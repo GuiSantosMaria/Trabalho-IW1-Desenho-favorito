@@ -1,0 +1,115 @@
+body {
+ 
+    font-family: Arial, Helvetica, sans-serif;body {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+  
+      
+      }
+  }
+  
+  header {
+    background-image: url('batman-hd-png-best-batman-logo-1692430-900.png');
+    background-size: cover; 
+    background-position: center; 
+  }
+
+  img {
+    width: 190px;
+    height: auto;
+  }
+
+  p {
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.estrofe {
+  margin-bottom: 50px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;}
+
+form {
+  width: 100%; /* Ocupa toda a largura disponível */
+}
+
+label {
+  display: block; /* Torna cada label um bloco, ocupando toda a linha */
+  margin-bottom: 10px; /* Espaçamento entre o label e o input */
+}
+
+input, textarea {
+  width: 100%; /* Ocupa toda a largura disponível */
+  padding: 10px; /* Adiciona um pouco de padding interno */
+  margin-bottom: 20px; /* Espaçamento entre os inputs */
+}
+
+  
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 25%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 80%; /* Define a largura máxima do container */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+}
+
+
+.container img {
+  width: 250px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #181413;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #6e691b;
+}
+
